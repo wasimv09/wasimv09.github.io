@@ -1,0 +1,289 @@
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        max-width: 90%;
+    }
+    #skill-set .skill figure{
+        margin-bottom: 50px;
+    }
+    #demo-p .project a img{
+        width: 200px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .toggle-wrap{
+        top: 20px;
+        left: 20px;
+    }
+    .share-icon{
+        top: 20px;
+        right: 20px;
+        i{
+            padding: 11px 14px;
+            font-size: 22px;
+        }
+    }
+    nav .nav-share-icon{
+        top: 12.5px;
+        right: 12.5px;
+    }
+    #home{
+        h1{
+            font-size: 260px;
+            margin-top: 90px;
+        }
+        h2{
+            font-size: 30px;
+        }
+    }
+    #about h2, #skill-set h2, #demo-p h2, #contact h2{
+        font-size: 70px;
+    }
+    #about .para > p{
+        width: 85%;
+    }
+    #skill-set .skill figure{
+        margin-right: 30px;
+        img{
+            width: 160px;
+            height: 180px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    nav{
+        .brand a{
+            font-size: 50px;
+        }
+        ul{
+            margin-top: 75px;
+            li{
+                display: block;
+                a{
+                    font-size: 34px;
+                    &::after{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    #home{
+        h1{
+            font-size: 240px;
+        }
+        h2{
+            font-size: 24px;
+            line-height: 1.5;
+        }
+        h3{
+            font-size: 24px;
+            span{
+                font-size: 22px;
+            }
+        }
+    }
+    #about .para > p{
+        width: 100%;
+    }
+    #about .exp, #about .part{
+        margin-left: 0;
+    }
+    #about .part{
+        margin-right: 0;
+    }
+    #skill-set .skill figure:nth-child(3),
+    #skill-set .skill figure:nth-child(6){
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .arrows{
+        display: none;
+    }
+    #about h2, #skill-set h2, #demo-p h2, #contact h2{
+        font-size: 50px;
+    }
+    #about .para > p{
+        font-size: 18px;
+    }
+    #about .exp, #about .part{
+        float: none;
+        text-align: center;
+        p{
+            font-size: 18px;
+            span{
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 640px){
+    nav{
+        border: 10px solid #000;
+    }
+    #home h1{
+        font-size: 200px;
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .toggle-wrap{
+        top: 5px;
+        left: 5px;
+    }
+    .share-icon{
+        top: 5px;
+        right: 5px;
+    }
+    nav .nav-share-icon{
+        top: -4px;
+        right: 0;
+    }
+    #skill-set .skill figure{
+        margin-right: 30px;
+        &:nth-child(2), &:nth-child(4), &:nth-child(6){
+            margin-right: 0;
+        }
+        &:nth-child(3){
+            margin-right: 30px;
+        }
+    }
+    #contact .social a{
+        padding: 7px 10px;
+        font-size: 36px;
+    }
+    #contact .fbot .made p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    nav{
+        border: 8px solid #000;
+        .brand{
+            margin-top: 80px;
+            a{
+                font-size: 34px;
+            }
+        }
+        ul{
+            margin-top: 50px;
+            a{
+                font-size: 30px;
+            }
+        }
+    }
+    #home{
+        h1{
+            font-size: 160px;
+            margin-top: 50px;
+        }
+        h2{
+            font-size: 20px;
+        }
+        h3{
+            font-size: 20px;
+            span{
+                font-size: 18px;
+            }
+        }
+    }
+    #about{
+        h2{
+            font-size: 40px;
+            margin-bottom: 50px;
+        }
+        .exp p, .part p{
+            margin: 40px auto 20px;
+        }
+    }
+    #skill-set{
+        h2{
+            font-size: 40px;
+            margin-bottom: 50px;
+        }
+        .skill figure img{
+            padding: 8px;
+        }
+    }
+    #demo-p{
+        text-align: center;
+        h2{
+            font-size: 40px;
+            margin-bottom: 50px;
+        }
+    }
+    #contact{
+        h2{
+            font-size: 40px;
+            margin-bottom: 50px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 380px){
+    #home{
+        h1{
+            font-size: 130px;
+            margin-top: 80px;
+        }
+        h2{
+            font-size: 18px;
+        }
+        h3{
+            span{
+                display: block;
+                margin: 10px 0 5px 0;
+                &::before{
+                    content: '';
+                    display: block;
+                    width: 52%;
+                    border-left: none;
+                    border-top: 1px solid #777;
+                    margin: 10px auto;
+                }
+            }
+        }
+    }
+    #skill-set .skill figure{
+        margin: 0 30px 50px;
+        &:nth-child(2), &:nth-child(4), &:nth-child(6){
+            margin-right: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 360px){
+    nav {
+        .brand a{
+            font-size: 28px;
+            padding: 12px 5px;
+        }
+        ul li a{
+            font-size: 30px;
+            padding: 15px;
+        }
+    }
+    #about h2, #skill-set h2, #demo-p h2, #contact h2{
+        font-size: 34px;
+    }
+    #contact {
+        .cd a{
+            font-size: 16px;
+        }
+        .social a{
+            font-size: 24px;
+        }
+    }
+}
+
+
+
+
