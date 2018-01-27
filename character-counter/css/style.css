@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+    background: #111 url(../images/GitHub-Mark-64px.png) repeat;
+    z-index: -1;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: #000;
+}
+body::-webkit-scrollbar-track {
+    background-color: #000;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #fff;
+}
+@font-face {
+    font-family: Intro_Inline;
+    src: url(../fonts/Intro_Inline.otf);
+}
+
+#main h1 {
+    font-size: 5rem;
+    color: #66FCF1;
+    text-align: center;
+    margin: 40px auto 60px;
+    font-family: Intro_Inline;
+}
+
+#main .form {
+    width: 70%;
+    margin: 0 auto;
+}
+#main .form textarea {
+    width: 100%;
+    display: block;
+    resize: none;
+    padding: 20px;
+    height: 250px;
+    color: #fff;
+    font-size: 18px;
+    background: #1e1e1e;
+    border: 2px solid #333;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+#main .form textarea::placeholder {
+    color: #999;
+}
+#main form input[type="reset"] {
+    font-size: 18px;
+    width: 250px;
+    padding: 12px;
+    color: #66FCF1;
+    background: #000;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+#main .form .reset_button{
+    width: 43%;
+    text-align: right;
+    display: inline-block;
+}
+#main .form .counter{
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+}
+#main .form span {
+    color: #777;
+    font-size: 26px;
+    margin-left: 50px;
+}
+#main .form span.all_count{
+    color: #66FCF1;
+    font-size: 50px;
+    margin-left: 20px;
+    line-height: 0.5;
+    vertical-align: top;
+    font-family: 'Raleway', sans-serif;
+}
+.add_info{
+    width: 70%;
+    margin: 40px auto;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    background: #252526;
+}
+td{
+    border: 1px solid #333;
+    text-align: left;
+    padding: 12px 15px;
+}
+td span{
+    color: #66FCF1;
+}
+tr td:first-child{
+    width: 60%;
+}
+tr td:last-child{
+    width: 40%;
+}
+tr:nth-child(even){
+    background: #1e1e1e;
+}
+.spaces, .alpha_char, .non_alpha_char, .numeric{
+    color: #66FCF1;
+}
+.github_link{
+    position: fixed;
+    right: -6.5%;
+    top: 50%;
+    transform: translateY(6.5%, -50%);
+    transform: rotate(-90deg)
+}
+.github_link a{
+    color: #66FCF1;
+    background: #1e1e1e;
+    padding: 15px 20px;
+    letter-spacing: 2px;
+}
+.fbot {
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.fbot .color-plate {
+    margin-bottom: -2px;
+    z-index: 5;
+}
+.fbot .color-plate span {
+    float: left;
+    width: calc(100%/14);
+    height: 2px;
+}
+.fbot .color-plate span:nth-child(1) {
+    background-color: #ffbb33;
+}
+
+.fbot .color-plate span:nth-child(2) {
+    background-color: #bbff33;
+}
+
+.fbot .color-plate span:nth-child(3) {
+    background-color: #33ff33;
+}
+
+.fbot .color-plate span:nth-child(4) {
+    background-color: #33ffbb;
+}
+
+.fbot .color-plate span:nth-child(5) {
+    background-color: #33bbff;
+}
+
+.fbot .color-plate span:nth-child(6) {
+    background-color: #3333ff;
+}
+
+.fbot .color-plate span:nth-child(7) {
+    background-color: #bb33ff;
+}
+
+.fbot .color-plate span:nth-child(8) {
+    background-color: #ff33bb;
+}
+
+.fbot .color-plate span:nth-child(9) {
+    background-color: #ff3333;
+}
+
+.fbot .color-plate span:nth-child(10) {
+    background-color: #ffbb33;
+}
+
+.fbot .color-plate span:nth-child(11) {
+    background-color: #bbff33;
+}
+
+.fbot .color-plate span:nth-child(12) {
+    background-color: #33ff33;
+}
+
+.fbot .color-plate span:nth-child(13) {
+    background-color: #33ffbb;
+}
+
+.fbot .color-plate span:nth-child(14) {
+    background-color: #33bbff;
+}
+
+.fbot .made {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.fbot .made p {
+    font-size: 22px;
+    color: #999;
+}
+.fbot .made p a{
+    color: #999;
+}
+
+.fbot .made p img {
+    width: 22px;
+    margin: 0 10px 0;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-animation: beat 300ms linear infinite;
+    animation: beat 300ms linear infinite;
+}
+@-webkit-keyframes beat {
+    from{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes beat {
+    from{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
